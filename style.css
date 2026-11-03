@@ -1,0 +1,210 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Lato-Black,Raleway-VariableFont_wght, sans-serif;
+    color: #222;
+    font-size: 14px;
+}
+
+.cv {
+    width: 83%;
+    max-width: 1160px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+.entete {
+    min-height: 222px;
+    background-color: #19a9b0;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 25px 8%;
+    gap: 30px;
+}
+
+.photo {
+    width: 140px;
+    height: 140px;
+}
+
+.photo img {
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+    border-radius: 35%;
+}
+
+.identite {
+    flex: 1;
+    text-align: center;
+}
+
+.identite h1 {
+    font-size: 50px;
+    margin: 0 0 5px;
+}
+
+.identite h2 {
+    font-size: 22px;
+    margin: 0 0 22px;
+}
+
+.coordonnees {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 25px;
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.coordonnees p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.contenu {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    min-height: 885px;
+}
+
+.gauche {
+    background-color: #eef1f2;
+    padding: 30px 12%;
+}
+
+section {
+    margin-bottom: 27px;
+}
+
+.gauche h3,
+.droite h3 {
+    color: #16adb5;
+    font-size: 22px;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 9px;
+    margin: 18px 0;
+}
+
+.competence,
+.langue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.competence {
+    font-weight: bold;
+}
+
+.etoiles {
+    color: #19a9b0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.langue span {
+    text-align: right;
+}
+
+.gauche ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.gauche li {
+    padding: 2px 0;
+}
+
+.gauche li::marker {
+    color: #19a9b0;
+}
+
+/* COLONNE DE DROITE */
+.droite {
+    padding: 30px 7%;
+}
+
+.droite h3 {
+    margin-top: 18px;
+}
+
+.profil {
+    text-align: justify;
+    text-indent: 22px;
+    line-height: 1.25;
+    margin: 0;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.experience div {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience strong {
+    font-size: 14px;
+}
+
+.experience em {
+    font-size: 12px;
+}
+
+.experience > span {
+    color: #16adb5;
+    text-align: right;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #19a9b0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.reseaux a {
+    color: #19a9b0;
+    background-color: white;
+    width: 22px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+footer p {
+    font-size: 12px;
+    font-style: italic;
+    margin: 12px 0 0;
+}
+
